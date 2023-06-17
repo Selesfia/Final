@@ -21,7 +21,7 @@ Reading an image: We will use the imread function to read an image from a file a
 Grayscale conversion: We will utilize the cvtColor function to convert the image to grayscale. This simplifies subsequent processing steps and reduces computational complexity.
 Gaussian blur: We will apply the GaussianBlur function to the grayscale image to reduce noise and smooth out irregularities. This step helps in improving the accuracy of subsequent operations.
 Edge detection: We will use the Canny function to perform edge detection on the blurred image. This algorithm identifies regions of significant intensity changes, which often correspond to edges in the image.
-Output visualization: We will display the original image and the detected edges using the imshow function. The processed image or specific image features can also be saved to a file for further analysis or presentation.
+Output visualization: We will display the original, gray, blurred and the detected edges using the imshow function. The processed image or specific image features can also be saved to a file for further analysis or presentation.
 
 # Results
 

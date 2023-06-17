@@ -1,4 +1,3 @@
-```
 import cv2
 
 # Read an image from file
@@ -20,7 +19,6 @@ cv2.imshow('Gray', gray_image)
 cv2.imshow('Blurred', blurred_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-```
 
 Make sure to install the OpenCV library using pip install opencv-python before running this code. 
 The code uses the imread function to read an image from a file, cvtColor function to convert the image to grayscale, 

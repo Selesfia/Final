@@ -42,3 +42,17 @@ The image processing system utilizing the OpenCV library demonstrates the power 
 Image processing plays a vital role in numerous real-world applications, including computer vision, medical imaging, and multimedia processing. The OpenCV library provides a rich set of tools and algorithms that facilitate efficient and accurate image processing tasks.
 
 Through this program project, we have showcased a basic image processing pipeline. Depending on specific requirements, additional processing steps, such as image enhancement, object detection, or feature extraction, can be incorporated into the system.
+
+# Demo
+
+## Original
+![](https://github.com/Selesfia/Final/blob/main/images/Original.png)
+
+## Gray
+![](https://github.com/Selesfia/Final/blob/main/images/Gray.png)
+
+## Blurred
+![](https://github.com/Selesfia/Final/blob/main/images/Blurred.png)
+
+## Edge
+![](https://github.com/Selesfia/Final/blob/main/images/Edge.png)

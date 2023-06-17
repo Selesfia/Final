@@ -1,4 +1,4 @@
-# Image Processing 
+# Introduction
 
 Image processing is a widely used technique in computer vision that involves manipulating digital images to improve their quality, extract useful information, or perform specific tasks. It plays a crucial role in various applications such as object detection, image recognition, and medical imaging.
 

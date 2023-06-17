@@ -1,0 +1,30 @@
+```
+import cv2
+
+# Read an image from file
+image = cv2.imread('bg2.jpg') #name of the file that want to be process
+
+# Convert the image to grayscale
+gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+# Apply Gaussian blur to the image
+blurred_image = cv2.GaussianBlur(gray_image, (5, 5), 0)
+
+# Perform edge detection on the blurred image
+edges = cv2.Canny(blurred_image, 50, 150)
+
+# Display the original image and processed image
+cv2.imshow('Original Image', image)
+cv2.imshow('Edges', edges)
+cv2.imshow('Gray', gray_image)
+cv2.imshow('Blurred', blurred_image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+Make sure to install the OpenCV library using pip install opencv-python before running this code. 
+The code uses the imread function to read an image from a file, cvtColor function to convert the image to grayscale, 
+GaussianBlur function to apply blur, and Canny function to perform edge detection.
+
+The example code reads an image from a file, converts it to grayscale, applies Gaussian blur, and performs edge detection using the Canny algorithm. 
+Finally, it displays the original image and the detected edges.

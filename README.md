@@ -12,29 +12,31 @@ In this program project, we will utilize the OpenCV library, which provides a co
 
 The system architecture consists of the following components:
 
-Input Image: The system takes an input image as the initial data for processing. The image can be loaded from a file or obtained through other means, such as capturing it from a camera.
-Image Processing Functions: We will utilize the OpenCV library to perform various image processing operations, such as grayscale conversion, Gaussian blur, and edge detection. These functions are applied sequentially to transform the input image.
-Output Visualization: The processed image or specific image features, such as edges, are displayed or saved for further analysis or presentation.
+ * Input Image: The system takes an input image as the initial data for processing. The image can be loaded from a file or obtained through other means, such as 
+ capturing it from a camera.
+ * Image Processing Functions: We will utilize the OpenCV library to perform various image processing operations, such as grayscale conversion, Gaussian blur, and 
+ edge detection. These functions are applied sequentially to transform the input image.
+ * Output Visualization: The processed image or specific image features, such as edges, are displayed or saved for further analysis or presentation.
 
 # Implementation
 
 The implementation involves the following steps:
 
-Importing the necessary libraries: We will import the cv2 module from the OpenCV library.
-Reading an image: We will use the imread function to read an image from a file and store it as a NumPy array.
-Grayscale conversion: We will utilize the cvtColor function to convert the image to grayscale. This simplifies subsequent processing steps and reduces computational complexity.
-Gaussian blur: We will apply the GaussianBlur function to the grayscale image to reduce noise and smooth out irregularities. This step helps in improving the accuracy of subsequent operations.
-Edge detection: We will use the Canny function to perform edge detection on the blurred image. This algorithm identifies regions of significant intensity changes, which often correspond to edges in the image.
-Output visualization: We will display the original, gray, blurred and the detected edges using the imshow function. The processed image or specific image features can also be saved to a file for further analysis or presentation.
+ * Importing the necessary libraries: We will import the cv2 module from the OpenCV library.
+ * Reading an image: We will use the imread function to read an image from a file and store it as a NumPy array.
+ * Grayscale conversion: We will utilize the cvtColor function to convert the image to grayscale. This simplifies subsequent processing steps and reduces computational complexity.
+ * Gaussian blur: We will apply the GaussianBlur function to the grayscale image to reduce noise and smooth out irregularities. This step helps in improving the accuracy of subsequent operations.
+ * Edge detection: We will use the Canny function to perform edge detection on the blurred image. This algorithm identifies regions of significant intensity changes, which often correspond to edges in the image.
+ * Output visualization: We will display the original, gray, blurred and the detected edges using the imshow function. The processed image or specific image features can also be saved to a file for further analysis or presentation.
 
 # Results
 
 Upon running the program with an input image, the system performs the following image processing steps:
 
-Converts the image to grayscale.
-Applies Gaussian blur to the grayscale image.
-Performs edge detection on the blurred image using the Canny algorithm.
-Displays the original image and the detected edges.
+ * Converts the image to grayscale.
+ * Applies Gaussian blur to the grayscale image.
+ * Performs edge detection on the blurred image using the Canny algorithm.
+ * Displays the original image and the detected edges. <br>
 The output visualization provides valuable insights into the image's structure and boundaries, enabling further analysis or subsequent processing steps.
 
 # Conclusion
